@@ -1,0 +1,70 @@
+.container {
+    width: 80vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.outerBlock {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 3vh;
+
+}
+
+.leftBlock {
+    width: 50%;
+    border: solid;
+    border-width: 1px;
+    border-color: #EEAEAE;
+    margin: 0px 2vw;
+    border-radius: 20px;
+    padding: 3vh 1vw;
+    box-shadow:  0px 0px 50px #800080;
+}
+
+.leftBlock .btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 4vh;
+}
+
+.leftBlock .btn button {
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: #800080;
+    color: white;
+}
+
+.rightBlock {
+    width: 50%;
+    padding-top: 1vh;
+    padding-left: 7vw;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.rightBlock ul {
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #EEAEAE;
+    width: max-content;
+    padding: 10px 50px;
+}
+
+.rightBlock ul li {
+    font-size: 32px;
+    padding-right: 30px;
+    color: #800080;
+    font-weight: bold;
+}
